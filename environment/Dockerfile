@@ -4,6 +4,6 @@ FROM $REGISTRY_HOST/codeocean/jupyterlab:3.6.1-miniconda4.12.0-python3.9-ubuntu2
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-ARG GIT_ASKPASS
+ARG GIT_ASK_PASS
 ARG GIT_ACCESS_TOKEN
-COPY git-askpass /
+COPY git-ask-pass /
